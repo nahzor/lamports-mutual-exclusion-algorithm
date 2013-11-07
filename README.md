@@ -1,5 +1,5 @@
-Roshan-Muralidharan-Lamport-s-Mutual-Exclusion-Algorithm
-========================================================
+Lamport-s-Mutual-Exclusion-Algorithm
+====================================
 
 <b>Files in the zip file:</b>
 1. client1.c  -  Client code
@@ -10,7 +10,8 @@ Roshan-Muralidharan-Lamport-s-Mutual-Exclusion-Algorithm
 The Server.c file should be run first.
 
 <b>Command line arguments to run 'Server':</b>
-./a.out <SERVER PORT NUMBER> <REPOSITORY NAME>
+./a.out &lt;SERVER-PORT-NUMBER&gt; &lt;REPOSITORY-NAME&gt;
+
 REPOSITORY NAME can be:
 repository1
 repository2
@@ -18,7 +19,7 @@ repository3
 
 <b>Command line arguments to run 'client1':</b>
 
-./a.out <UNIQUE NAME> <IP ADDRESS OF SERVER 1><PORT NUMBER OF SERVER 1><IP ADDRESS OF SERVER 2><PORT NUMBER OF SERVER 2><IP ADDRESS OF SERVER 3><PORT NUMBER OF SERVER 3>
+./a.out &lt;UNIQUE NAME&gt; &lt;IP ADDRESS OF SERVER 1&gt; &lt;PORT NUMBER OF SERVER 1&gt; &lt;IP ADDRESS OF SERVER 2&gt; &lt;PORT NUMBER OF SERVER 2&gt; &lt;IP ADDRESS OF SERVER 3&gt; &lt;PORT NUMBER OF SERVER 3&gt;
 
 <b>Note:</b>
 
@@ -32,3 +33,5 @@ I have given 20 random READ/WRITE for random files through random servers using 
 
 All the repository files and the cfg.txt files will be cleared or data each time the servers start.
 
+<b>Reference:</b>
+http://en.wikipedia.org/wiki/Lamport%27s_Distributed_Mutual_Exclusion_Algorithm
