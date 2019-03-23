@@ -1,9 +1,5 @@
 //
 //  client1.c
-//  
-//
-//  Created by Roshan Muralidharan on 2/8/12.
-//  Copyright (c) 2012 University of Texas at Dallas. All rights reserved.
 //
 
 #include <pthread.h>
