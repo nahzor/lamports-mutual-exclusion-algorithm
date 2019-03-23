@@ -1,4 +1,4 @@
-AOS Project 1 - Roshan Muralidharan
+AOS Project 1
 
 Files in the zip file:
 1. client1.c  -  Client code
