@@ -1,7 +1,6 @@
-Lamport-s-Mutual-Exclusion-Algorithm
-====================================
+# Lamport's Mutual Exclusion Algorithm
 
-<b>Files in the zip file:</b>
+<b>Files in the repo:</b>
 1. client1.c  -  Client code
 2. Server.c - Server code
 3. repository1, repository2, repository3 - the file repositories for 3 different servers.
